@@ -1,0 +1,26 @@
+[Bitwise Operator]
+AND  & : both are 1 == 1 else 0
+OR   | : both are 0 == 0 else 1
+XOR  ^ : two bit number is different == 1
+NOT  ~ : ~A = -A - 1
+
+[Bit Shifts]
+LEFT SHIFT   << : A << a means moving bit num A to the left a times
+RIGHT SHIFT  >> : A >> a means moving bit num A to the right a times
+** zeros are shifted in to replace the discarded bits.
+** the bits that are shifted out are discarded
+
+[Conditional Expression]
+the only result is true and false
+
+==     : same
+!=     : not same
+>, <   : big, small
+>=, <= : big or same, small or same
+
+A&&B : both A and B is true -> true, else false
+A||B : more than one of A and B is true -> true, else false
+!A   : if A is false -> true, true -> false
+
+[Ternary Operator]
+Condition ? (return when true) : (return when false)

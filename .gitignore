@@ -1,5 +1,6 @@
 .idea
 *.iml
-.DS_Store
 *.txt
+.DS_Store
 out/
+!bit_operation.txt
